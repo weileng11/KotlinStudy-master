@@ -4,6 +4,35 @@ package com.asura.kotlinstudy
  * Created by Liuxd on 2017/9/4 13:52.
  * 基础数据类型
  * http://www.runoob.com/kotlin/kotlin-basic-types.html
+ *
+ * 05-16 15:40:27.172 9716-9716/com.asura.kotlinstudy D/Asura: true
+false
+true
+l is Long：true
+位运算 a:137  b:204
+shl(bits) – 左移位 (Java’s <<)：548
+05-16 15:40:27.173 9716-9716/com.asura.kotlinstudy D/Asura: shr(bits) – 右移位 (Java’s >>)：34
+ushr(bits) – 无符号右移位 (Java’s >>>)：34
+and(bits) – 与：136
+or(bits) – 或：205
+xor(bits) – 异或：69
+inv() – 非：-138
+arrayOf 创建数组：3
+Array() 创建数组：3
+intArrayOf() 创建数组：4
+我是一个字符串
+|我是一个多行字符串1
+|我是一个多行字符串2
+|我是一个多行字符串3
+|我是一个多行字符串4
+我是一个多行字符串5
+
+05-16 15:40:27.182 9716-9716/com.asura.kotlinstudy D/Asura: 是一个多行字符串1
+是一个多行字符串2
+是一个多行字符串3
+是一个多行字符串4
+我是一个多行字符串5
+ *
  */
 class KtBasicDataType {
     fun main(args: Array<String>) {
@@ -102,6 +131,7 @@ class KtBasicDataType {
         val x = intArrayOf(1, 2, 3, 4)
         val y = byteArrayOf(1, 2, 3, 4)
         ALog.d("intArrayOf() 创建数组：" + x.size)
+        ALog.d("byteArrayOf() 创建数组：" + y.size+y[0])
     }
 
 }

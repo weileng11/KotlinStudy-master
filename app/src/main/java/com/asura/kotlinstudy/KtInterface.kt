@@ -7,6 +7,15 @@ import com.asura.kotlinstudy.ktinterface.Child2
  * Created by Liuxd on 2017/9/15 15:21.
  * Kotlin 接口
  * http://www.runoob.com/kotlin/kotlin-interface.html
+ *
+ * 类对接口的具体实现：Child.bar()
+MyInterface接口的默认实现：MyInterface.foo()
+c.name ：Child
+-----------------------------------------------------
+MyInterface2接口的默认实现：MyInterface2.bar()
+MyInterface接口的默认实现：MyInterface.foo()
+MyInterface2接口的默认实现：MyInterface2.foo()
+d.name ：Child2
  */
 class KtInterface {
     fun main() {

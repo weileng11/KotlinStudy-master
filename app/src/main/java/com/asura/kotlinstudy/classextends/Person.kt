@@ -41,6 +41,7 @@ open class Person(var name: String, var age: Int) {
             super.study()
             ALog.d("我学习完了，毕业了")
         }
+
     }
 
     interface B {

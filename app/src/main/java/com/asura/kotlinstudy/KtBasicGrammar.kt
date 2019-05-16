@@ -4,9 +4,43 @@ package com.asura.kotlinstudy
  * Created by Liuxd on 2017/9/1 15:07.
  * Kotlin 基础语法
  * http://www.runoob.com/kotlin/kotlin-basic-syntax.html
+ *
+ * 2
+2
+4
+kotlin.Unit
+变长参数 vararg :1
+变长参数 vararg :2
+变长参数 vararg :3
+变长参数 vararg :4
+05-16 10:48:25.792 9716-9716/com.asura.kotlinstudy D/Asura: 变长参数 vararg :5
+lambda表达式：3
+a is 666
+a was 666,but now is 999
+ages1 :null
+ages2 :-1
+循环输出：
+1
+2
+3
+4
+设置步长 step：
+05-16 10:48:25.793 9716-9716/com.asura.kotlinstudy D/Asura: 1
+3
+使用 downTo：
+4
+3
+2
+使用 downTo + step：
+4
+2
+使用 until：
+1
+2
+3
  */
 class KtBasicGrammar {
-    fun main(args: Array<String>) {
+    fun main(args: Array<String>) {//10 5  4 1
         ALog.d(sum(1, 1).toString())
         ALog.d(sum1(1, 1).toString())
         ALog.d(sum2(2, 2).toString())
@@ -18,6 +52,7 @@ class KtBasicGrammar {
         templateStrings()
         nullCheck()
         range()
+
     }
 
     //    函数定义使用关键字 fun，参数格式为：参数 : 类型
@@ -63,7 +98,8 @@ class KtBasicGrammar {
 //        $ 表示一个变量名或者变量值
 //        $varName 表示变量值
 //        ${varName.fun()} 表示变量的方法返回值
-        var a = "666"
+
+        var a :String= "666"
         val s1 = "a is $a"
         a = "999";
         val s2 = "${s1.replace("is", "was")},but now is $a"

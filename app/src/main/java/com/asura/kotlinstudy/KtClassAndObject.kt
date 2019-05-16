@@ -35,6 +35,21 @@ class KtClassAndObject {
             }
         })
 
+        /*
+        * 05-16 16:39:29.911 19377-19377/com.asura.kotlinstudy D/Asura: person.name=ASURA2
+    person.age=-1
+05-16 16:39:29.912 19377-19377/com.asura.kotlinstudy D/Asura: person.age=28
+    初始化：Asura.url：https://github.com/qq709238339
+    Hello Kotlin,My nickname is Asura from China，welcome to view my Github at https://github.com/qq709238339
+    初始化：Asura2.url：https://github.com/qq709238339
+    Asura2.alexa：1000000
+    Hello Kotlin,My nickname is Asura2 from China，welcome to view my Github at https://github.com/qq709238339
+    调用嵌套类中方法：2
+    调用内部中方法：1
+    内部类可以引用外部类的成员，例如：外部类的成员属性
+    对象表达式创建匿名内部类的实例
+        * */
+
 //        类的修饰符
 //        类的修饰符包括 classModifier 和_accessModifier_:
 //        classModifier: 类属性修饰符，标示类本身特性。

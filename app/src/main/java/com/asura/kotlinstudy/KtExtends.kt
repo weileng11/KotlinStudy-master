@@ -17,6 +17,15 @@ class KtExtends
         s.a()
         s.f()
         s.b()
+
+        /*
+        *  我要学习
+    我学习完了，毕业了
+    Person.a()
+    Person.f()
+    B.f()
+    B.b()
+        * */
     }
 
 }
